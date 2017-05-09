@@ -1,0 +1,87 @@
+hr{
+	background-color: #3C8DBC;
+	height: 2px;
+}
+
+.table { border: 0px solid #2980B9; }
+.table thead > tr > th { border-bottom: none; background-color: #2180B7; color: white; text-align: center; font-size: 15px; font-weight: 100;}
+.table thead > tr > th, 
+.table tbody > tr > th, 
+.table tfoot > tr > th, 
+.table thead > tr > td, 
+.table tbody > tr > td, 
+.table tfoot > tr > td { border: 1px solid #2980B9 !important; border-bottom: 0px !important; height: 45px;}
+.table tbody > tr:last-child > td { border-bottom: 1px solid #2980B9 !important; }
+.table tbody > tr > td{background-color: white;}
+.table .btn-default{margin-bottom: 5px;}
+.table .btn-delete, 
+.table .btn-detail{width: 35%;}
+.table .btn-setting{width: 70%;}
+.table .btn-border{border: 1px solid #2180B7;}
+
+.tbl-header {
+    background-color: #2180B7;
+    color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #eff0f1 !important;
+}
+
+.table .no { width: 45px; text-align: center; }
+.table .num-route { width: 85px; text-align: center; }
+.table .edit-route { width: 180px; text-align: center;}
+
+
+.font-bold {font-weight: bold;}
+
+.padding-left-50{
+	padding-left: 50px;
+}
+
+.reset-btn{
+	padding-left: 30%;
+	padding-right: 35%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+.reset-btn-5
+{
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+.back-btn-at-reset-form
+{
+	margin-top: 30%;
+	margin-bottom: 50%;
+}
+.back-btn
+{
+	margin-top: 10px;
+}
+
+.padding-left-50{padding-left: 50px;}
+.padding-left-60{padding-left: 60px;}
+.padding-left-70{padding-left: 70px;}
+.padding-left-80{padding-left: 80px;}
+.padding-left-90{padding-left: 90px;}
+
+.margin-left-10{margin-left: 10px;}
+.margin-left-100{margin-left: 100px;}
+.margin-left-200{margin-left: 200px;}
+.margin-left-300{margin-left: 300px;}
+
+.main-header a:hover{
+	text-decoration: none;
+}
+
+/*Override css of class sidebar-toggle*/
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: transparent; !important;
+}
+
+.main-header .sidebar-toggle:before { content: ""; }
